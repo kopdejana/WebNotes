@@ -20,4 +20,11 @@ header button {
     color: rgb(30, 30, 30);
     background-color: white;
     border-radius: 50%;
+    border: none;
+}
+
+main {
+    margin: 5rem;
+    margin-top: 10rem;
+    display: flex;
 }
