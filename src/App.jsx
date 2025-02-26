@@ -9,7 +9,7 @@ function App() {
 
     const [notes, setNotes] = useState(JSON.parse(
         localStorage.getItem('notes')
-    ));
+    ) || []);
     const [id, setId] = useState(1);
 
     useEffect(() => {
