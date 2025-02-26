@@ -1,4 +1,5 @@
 import Note from "../Note";
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -19,7 +20,11 @@ function Home() {
         <>
             <header>
                 <h1>WebNotes</h1>
-                <button>+</button>
+                <Link
+                    className="btn"
+                    to="/new-note">
+                    <span>+</span>
+                </Link>
             </header>
             <main>
                 {notesComponents}
