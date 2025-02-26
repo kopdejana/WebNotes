@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Note from "../Note";
 import { Link } from 'react-router-dom';
-import logo from "../../icon.png";
+import logo from "../../public/icon.png";
 
 function Home(props) {
 
