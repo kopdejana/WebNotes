@@ -17,7 +17,7 @@ function App() {
     }, [notes]);
 
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL} >
+        <BrowserRouter basename="/WebNotes">
             <Routes>
                 <Route path="/" element={<Home notes={notes}/>}/>
                 <Route path="/new-note" element={<NewNote id={id} setId={setId} setNotes={setNotes}/>}/>
