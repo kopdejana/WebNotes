@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Note from "../Note";
 import { Link } from 'react-router-dom';
+import logo from "../../icon.png";
 
 function Home(props) {
 
@@ -26,7 +27,7 @@ function Home(props) {
         <>
             <header>
                 <div>
-                    <img src="../../icon.png" width="50px" height="50px"/>
+                    <img src={logo} width="50px" height="50px"/>
                     <h1>WebNotes</h1>
                 </div>
                 <Link
