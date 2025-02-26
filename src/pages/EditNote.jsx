@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function EditNote() {
 
     return (
@@ -6,7 +8,9 @@ function EditNote() {
             <textarea name="Note" placeholder="Note"></textarea>
             <div>
                 <input type="color"/>
-                <button>Save</button>
+                <Link to="/">
+                    <button>Save</button>
+                </Link>
             </div>
         </div>
     );
