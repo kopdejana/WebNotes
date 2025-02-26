@@ -20,6 +20,11 @@ header .btn {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 header .btn span {
     font-size: 3rem;
     font-weight: bold;
@@ -32,8 +37,5 @@ header .btn span:hover {
 
 main {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 10rem 0;
 }
