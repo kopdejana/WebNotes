@@ -25,7 +25,10 @@ function Home(props) {
     return (
         <>
             <header>
-                <h1>WebNotes</h1>
+                <div>
+                    <img src="../../icon.png" width="50px" height="50px"/>
+                    <h1>WebNotes</h1>
+                </div>
                 <Link
                     className="btn"
                     to="/new-note">
