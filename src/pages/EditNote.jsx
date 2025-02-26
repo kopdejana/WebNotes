@@ -4,7 +4,7 @@ import { useState } from "react";
 function EditNote(props) {
 
     const path = window.location.pathname;
-    const id = Number.parseInt(path.substring(11)) - 1;
+    const id = Number.parseInt(path.substring(11));
 
     const notes = props.notes;
     const setNotes = props.setNotes;

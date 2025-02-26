@@ -10,7 +10,7 @@ function App() {
     const [notes, setNotes] = useState(JSON.parse(
         localStorage.getItem('notes')
     ) || []);
-    const [id, setId] = useState(1);
+    const [id, setId] = useState(notes.length);
 
     useEffect(() => {
         localStorage.setItem('notes', JSON.stringify(notes));
