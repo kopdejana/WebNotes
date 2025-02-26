@@ -1,0 +1,46 @@
+.editNote {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.editNote input {
+    font-size: 2rem;
+    color: white;
+    background-color: #ffffff00;
+    border: none;
+    margin: 2rem 0;
+}
+
+.editNote textarea {
+    font-size: 2rem;
+    color: white;
+    background-color: #ffffff00;
+    border: none;
+    width: 800px;
+    height: 400px;
+}
+
+.editNote div {
+    display: flex;
+    align-items: center;
+}
+
+.editNote div input {
+    width: 5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.editNote div button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid gray;
+}
+
+.editNote div button:hover {
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+}
