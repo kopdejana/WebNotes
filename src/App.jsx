@@ -15,9 +15,10 @@ function App() {
     useEffect(() => {
         localStorage.setItem('notes', JSON.stringify(notes));
     }, [notes]);
+    
 
     return (
-        <BrowserRouter basename="/WebNotes">
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
             <Routes>
                 <Route path="/" element={<Home notes={notes}/>}/>
                 <Route path="/new-note" element={<NewNote id={id} setId={setId} setNotes={setNotes}/>}/>
